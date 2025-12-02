@@ -36,6 +36,7 @@
 ### Глава 5. Работа с ресурсами
 - [Определение Lambda-функций](lambda-definition.md)
   - Общие принципы работ Лямбд
+  - [Lambda Managed Instances !!!!](lambda-managed-instances.md)
   - [Жизненный цикл](lambda-lifecycle.md)
   - [Контекст выполнения](lambda-execution-context.md)
   - [Слои ***](lambda-layers.md)
