@@ -57,7 +57,8 @@
   - [Extensions !!!](lambda-extensions,md)
 - API Gateway
   - [Общее описание](api-gateway.md)
-    - [API эндпоинты](api-gateway-endpoints.md)    
+    - [API эндпоинты](api-gateway-endpoints.md)
+    - Rest Api vs HTTP Api   
     - Поддерживаемые сервисы
   - Интеграция
     - Интеграция с Лямбдой
