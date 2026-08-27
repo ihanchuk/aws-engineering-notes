@@ -3,6 +3,7 @@
 ## 📑 Оглавление
 ### Глава 0. AWS короткое интро
 - Регионы, зоны доступности, эдж локации
+- Политики безопасности AWS
 - Cloud Formation
   - [Структура шаблона](cloud-formation-template-structure.md) 
   - [Пример шаблона](cloud-formation-templatexample.md)
