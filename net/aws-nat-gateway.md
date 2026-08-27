@@ -1,8 +1,7 @@
-### AWS NAT Gateway: где он находится и как Private Resources выходят в Internet
+### AWS NAT Gateway
 
-> **Важно:** ниже рассматривается классический **Public NAT Gateway**. AWS также предоставляет другие варианты NAT Gateway, например Regional NAT Gateway, поэтому утверждение «NAT Gateway всегда находится в Public Subnet» не является универсальным.
->
-> NAT Gateway не является частью private network. Он является инфраструктурой, через которую private network получает egress в Internet.
+> [!IMPORTANT]
+> NAT Gateway не находится в Private Subnet. В классической архитектуре Public NAT Gateway размещается в Public Subnet и предоставляет ресурсам Private Subnet исходящий (egress) доступ в Internet.
 
 ## 1. Что делает NAT Gateway?
 
