@@ -1,6 +1,6 @@
 ### AWS Networking — краткое summary
 
-#### PC (Virtual Private Cloud) — это изолированная виртуальная сеть AWS. ####
+#### VPC (Virtual Private Cloud) — это изолированная виртуальная сеть AWS. ####
 Внутри VPC ты создаёшь subnets, которые являются отдельными сетевыми сегментами и находятся в конкретных Availability Zones. Обычно subnets делят на public и private в зависимости от их маршрутизации.
 
 #### Route Table определяет, куда отправляется traffic из subnet.####
