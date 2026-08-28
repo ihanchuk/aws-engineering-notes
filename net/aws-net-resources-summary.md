@@ -9,3 +9,5 @@
 | **NAT Gateway**            | Network / NAT    | Public Subnet*                  | Даёт Private Resources outbound-доступ в Internet | **Да**              |
 | **Network ACL (NACL)**     | Network Security | Subnet                          | Фильтрует traffic на уровне subnet                | Нет                 |
 | **Security Group**         | Network Security | ENI / Resource                  | Фильтрует traffic конкретного resource            | Нет                 |
+
+* NAT Gateway размещается в публичной подсети, но обслуживает ресурсы находящиеся в приватной.
