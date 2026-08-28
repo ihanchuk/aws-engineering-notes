@@ -9,7 +9,7 @@
 #### Internet Gateway (IGW) подключает VPC к Internet.#### 
 Он прикрепляется непосредственно к VPC, но сам по себе не делает все её subnets публичными. Для прямого выхода ресурсу также нужен public IPv4/EIP и соответствующий маршрут через IGW.
 
-#### NAT Gateway#### 
+#### NAT Gateway #### 
 используется для исходящего доступа в Internet из Private Subnet. В классической архитектуре Public NAT Gateway размещается в Public Subnet и отправляет traffic дальше через IGW. Поэтому типичная цепочка выглядит как Private Resource → NAT Gateway → Internet Gateway → Internet.
 
 #### Network ACL (NACL) — фильтр traffic на уровне subnet. ####
