@@ -14,24 +14,24 @@
 >
 > Каждая новая `subnet` автоматически ассоциируется с `Main Route Table`, если для неё не указана другая Route Table.
 >
-> Например:
->
 > `VPC → Main Route Table → Subnets`
 
 #### Важно помнить
 
-* каждая `subnet` использует одну Route Table.
+* Каждая `subnet` использует одну Route Table.
 
-* одна Route Table может быть ассоциирована с несколькими `subnets`.
+* Одна Route Table может быть ассоциирована с несколькими `subnets`.
 
-* если `subnet` не ассоциирована с конкретной Route Table, она использует **Main Route Table** VPC.
+* Если `subnet` не ассоциирована с конкретной Route Table, она использует **Main Route Table** VPC.
 
-* для IPv4 и IPv6 существуют отдельные quotas на количество маршрутов.
+* По умолчанию одна Route Table может содержать **до 50 IPv4 routes и 50 IPv6 routes**.
+
+* Quotas для IPv4 и IPv6 маршрутов считаются **отдельно** и могут быть увеличены через Service Quotas.
 
 * `Public subnet` — это subnet, Route Table которой содержит маршрут к `Internet Gateway`, например:
 
   `0.0.0.0/0 → Internet Gateway`
 
-* при этом ресурс внутри `public subnet` должен иметь **public IP**, чтобы иметь прямой доступ в Internet.
+* При этом ресурс внутри `public subnet` должен иметь **public IP**, чтобы иметь прямой доступ в Internet.
 
-* наличие маршрута к `Internet Gateway` само по себе не назначает ресурсам public IP.
+* Наличие маршрута к `Internet Gateway` само по себе не назначает ресурсам public IP.
