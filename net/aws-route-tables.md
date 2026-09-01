@@ -16,22 +16,38 @@
 >
 > `VPC → Main Route Table → Subnets`
 
+#### Public Subnet
+
+`Subnet` считается **public**, если её Route Table содержит маршрут к `Internet Gateway`.
+
+Например:
+
+```text
+0.0.0.0/0 → Internet Gateway
+```
+
+При этом ресурс внутри `public subnet` должен иметь **public IP**, чтобы иметь прямой доступ в Internet.
+
+#### Private Subnet
+
+`Subnet` считается **private**, если её Route Table **не содержит маршрута к Internet Gateway**.
+
+Для исходящего доступа в Internet обычно используется:
+
+```text
+0.0.0.0/0 → NAT Gateway
+```
+
+При этом `NAT Gateway` должен находиться в **public subnet** и иметь маршрут к `Internet Gateway`.
+
 #### Важно помнить
 
 * Каждая `subnet` использует одну Route Table.
-
 * Одна Route Table может быть ассоциирована с несколькими `subnets`.
-
 * Если `subnet` не ассоциирована с конкретной Route Table, она использует **Main Route Table** VPC.
-
 * По умолчанию одна Route Table может содержать **до 50 IPv4 routes и 50 IPv6 routes**.
-
 * Quotas для IPv4 и IPv6 маршрутов считаются **отдельно** и могут быть увеличены через Service Quotas.
-
-* `Public subnet` — это subnet, Route Table которой содержит маршрут к `Internet Gateway`, например:
-
-  `0.0.0.0/0 → Internet Gateway`
-
-* При этом ресурс внутри `public subnet` должен иметь **public IP**, чтобы иметь прямой доступ в Internet.
-
-* Наличие маршрута к `Internet Gateway` само по себе не назначает ресурсам public IP.
+* Наличие маршрута к `Internet Gateway` делает subnet **public**.
+* Отсутствие маршрута к `Internet Gateway` делает subnet **private**.
+* Наличие `public IP` у ресурса само по себе не делает subnet public.
+* Наличие `NAT Gateway` в Route Table не делает subnet public — наоборот, это типичный способ дать **private subnet** исходящий доступ в Internet.
