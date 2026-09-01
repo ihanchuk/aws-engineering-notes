@@ -126,3 +126,18 @@ NACL — stateless firewall на уровне subnet.
 ```
 
 Для 1.2.3.4 → Rule 100 → DENY. Правило 200 уже не рассматривается.
+
+__VPC Endpoint__
+
+VPC Endpoint позволяет обращаться к AWS-сервисам без выхода через Internet Gateway или NAT Gateway.
+
+Например:
+```
+Private EC2
+    ↓
+VPC Endpoint
+    ↓
+S3
+```
+
+Особенно полезен для private subnet, потому что можно убрать зависимость от NAT для доступа к определённым AWS services.
