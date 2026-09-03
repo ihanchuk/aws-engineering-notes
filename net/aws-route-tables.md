@@ -7,7 +7,13 @@
 * отвечают за маршрутизацию трафика
 * ассоциируются с `subnet`
 * определяют маршрут на основе `destination IP`
-* могут направлять трафик в `Internet Gateway`, `NAT Gateway`, `VPC Endpoint`, `VPC Peering`, `Transit Gateway` и другие targets
+* могут направлять трафик в:
+  *  Internet Gateway
+  *  NAT Gateway
+  *  VPC Endpoint
+  *  VPC Peering
+  *  Transit Gateway
+  *  и другие компонентны
 
 > [!IMPORTANT]
 > При создании `VPC` автоматически создаётся **Main Route Table**.
