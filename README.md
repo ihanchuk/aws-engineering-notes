@@ -9,7 +9,7 @@
 › [Terraform](./infrastructure-as-code/terraform/index.md)<br />
 › [AWS CDK](./infrastructure-as-code/cdk/index.md)<br />
 › [AWS SAM](./infrastructure-as-code/sam/index.md)<br />
-› [AWS CloudFormation](./infrastructure-as-code/cloud-formation/index.md)
+› [AWS CloudFormation](./cloud-formation/index.md)
 
 ## Serverless
 
