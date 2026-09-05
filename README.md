@@ -12,7 +12,8 @@
 › [AWS CloudFormation](./cloud-formation/index.md)
 
 ## Serverless
-
+› [Serverless resources intro](./serverless/serverless-resources.md)<br />
+› [Serverless resource types](./serverless/serverless-resources-types.md)<br />
 › [Lambda](./serverless/lambda/index.md)<br />
 › [SQS](./serverless/sqs/index.md)<br />
 › [API Gateway](./serverless/api-gateway/index.md)<br />
