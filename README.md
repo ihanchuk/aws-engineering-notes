@@ -8,8 +8,8 @@
 
 › [Terraform](./infrastructure-as-code/terraform/index.md)<br />
 › [AWS CDK](./infrastructure-as-code/cdk/index.md)<br />
-› [AWS SAM](./sam/index.md)<br />
-› [AWS CloudFormation](./cloud-formation/index.md)
+› [AWS SAM](./infrastructure-as-code/sam/index.md)<br />
+› [AWS CloudFormation](./infrastructure-as-code/cloud-formation/index.md)
 
 ## Serverless
 
@@ -20,14 +20,7 @@
 
 ## Networking
 
-› [VPC](./networking/vpc/index.md)<br />
-› [Subnets](./networking/subnets/index.md)<br />
-› [Route Tables](./networking/route-tables/index.md)<br />
-› [NAT Gateway](./networking/nat-gateway/index.md)<br />
-› [Internet Gateway](./networking/internet-gateway/index.md)<br />
-› [Security Groups](./networking/security-groups/index.md)<br />
-› [NACL](./networking/nacl/index.md)<br />
-› [VPC Peering](./networking/vpc-peering/index.md)
+› [AWS Networking](./net/index.md)
 
 ## Security & IAM
 
