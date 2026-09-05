@@ -1,69 +1,69 @@
 # AWS Engineering Notes
 
-## › AWS Fundamentals
+## AWS Fundamentals
 
 › [Core Concepts](./fundamentals/index.md)
 
-## › Infrastructure as Code
+## Infrastructure as Code
 
-› [Terraform](./infrastructure-as-code/terraform/index.md)
-› [AWS CDK](./infrastructure-as-code/cdk/index.md)
-› [AWS SAM](./infrastructure-as-code/sam/index.md)
+› [Terraform](./infrastructure-as-code/terraform/index.md)<br />
+› [AWS CDK](./infrastructure-as-code/cdk/index.md)<br />
+› [AWS SAM](./infrastructure-as-code/sam/index.md)<br />
 › [AWS CloudFormation](./infrastructure-as-code/cloud-formation/index.md)
 
-## › Serverless
+## Serverless
 
-› [Lambda](./serverless/lambda/index.md)
-› [SQS](./serverless/sqs/index.md)
-› [API Gateway](./serverless/api-gateway/index.md)
+› [Lambda](./serverless/lambda/index.md)<br />
+› [SQS](./serverless/sqs/index.md)<br />
+› [API Gateway](./serverless/api-gateway/index.md)<br />
 › [EventBridge](./serverless/event-bridge/index.md)
 
-## › Networking
+## Networking
 
-› [VPC](./networking/vpc/index.md)
-› [Subnets](./networking/subnets/index.md)
-› [Route Tables](./networking/route-tables/index.md)
-› [NAT Gateway](./networking/nat-gateway/index.md)
-› [Internet Gateway](./networking/internet-gateway/index.md)
-› [Security Groups](./networking/security-groups/index.md)
-› [NACL](./networking/nacl/index.md)
+› [VPC](./networking/vpc/index.md)<br />
+› [Subnets](./networking/subnets/index.md)<br />
+› [Route Tables](./networking/route-tables/index.md)<br />
+› [NAT Gateway](./networking/nat-gateway/index.md)<br />
+› [Internet Gateway](./networking/internet-gateway/index.md)<br />
+› [Security Groups](./networking/security-groups/index.md)<br />
+› [NACL](./networking/nacl/index.md)<br />
 › [VPC Peering](./networking/vpc-peering/index.md)
 
-## › Security & IAM
+## Security & IAM
 
 › [IAM](./security/iam/index.md)
 
-## › Data & Storage
+## Data & Storage
 
-› [S3](./data/s3/index.md)
-› [DynamoDB](./data/dynamodb/index.md)
-› [RDS](./data/rds/index.md)
+› [S3](./data/s3/index.md)<br />
+› [DynamoDB](./data/dynamodb/index.md)<br />
+› [RDS](./data/rds/index.md)<br />
 › [Aurora](./data/aurora/index.md)
 
-## › Local Development & Testing
+## Local Development & Testing
 
-› [LocalStack](./local-development/localstack/index.md)
-› [AWS SAM CLI](./local-development/sam-cli/index.md)
+› [LocalStack](./local-development/localstack/index.md)<br />
+› [AWS SAM CLI](./local-development/sam-cli/index.md)<br />
 › [Docker](./local-development/docker/index.md)
 
-## › Deployment & CI/CD
+## Deployment & CI/CD
 
-› [CI/CD](./deployment/ci-cd/index.md)
-› [GitHub Actions](./deployment/github-actions/index.md)
+› [CI/CD](./deployment/ci-cd/index.md)<br />
+› [GitHub Actions](./deployment/github-actions/index.md)<br />
 › [Deployment Strategies](./deployment/deployment-strategies/index.md)
 
-## › Observability
+## Observability
 
-› [CloudWatch](./observability/cloudwatch/index.md)
+› [CloudWatch](./observability/cloudwatch/index.md)<br />
 › [X-Ray](./observability/x-ray/index.md)
 
-## › Architecture
+## Architecture
 
-› [Serverless Architecture](./architecture/serverless/index.md)
-› [Event-Driven Architecture](./architecture/event-driven/index.md)
-› [Microservices](./architecture/microservices/index.md)
+› [Serverless Architecture](./architecture/serverless/index.md)<br />
+› [Event-Driven Architecture](./architecture/event-driven/index.md)<br />
+› [Microservices](./architecture/microservices/index.md)<br />
 › [System Design](./architecture/system-design/index.md)
 
-## › Tips & Lessons Learned
+## Tips & Lessons Learned
 
 › [Tips](./tips/index.md)
