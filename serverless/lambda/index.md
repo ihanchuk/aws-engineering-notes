@@ -28,6 +28,10 @@
 
 › [Lambda Authorization](./lambda-auth.md)
 
+## Execution
+
+› [Lambda Execution Containers](./lambda-vm.md)
+
 ## Examples
 
 › [Lambda + API Gateway](./example-lambda-plus-api.md)
