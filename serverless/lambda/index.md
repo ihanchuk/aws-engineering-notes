@@ -30,7 +30,7 @@
 
 ## Execution
 
-› [Lambda Execution Containers](./lambda-vm.md)
+› [Lambda Execution Containers](./lambda-micro-vm.md)
 
 ## Examples
 
