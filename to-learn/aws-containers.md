@@ -9,7 +9,7 @@
 | **2023** | `CON205` — Supercharge your business applications with Amazon ECS                   | ECS architecture + modernization             |
 | **2023** | `CON401` — Deep dive into Amazon ECS resilience and availability                    | **очень рекомендую**                         |
 | **2023** | `CON301` — Build cost-optimized workloads on Amazon ECS                             | cost/scaling                                 |
-| **2024** | `SVS327` — Navigating the cloud compute landscape with Amazon ECS                   | выбор EC2/Fargate/ECS                        |
+| **2024** | `SVS327` — Navigating the cloud compute landscape with Amazon ECS                   | [EC2/Fargate/ECS](https://www.youtube.com/watch?v=i_ioBnDuaiU&list=PL2yQDdvlhXf_Ezjnq7A7LfHBgCYSqzrZS&index=4)                        |
 | **2024** | `SVS339` — Building event-driven architectures using Amazon ECS with AWS Fargate    | **очень рекомендую**                         |
 | **2024** | `SVS340` — Deployment best practices for reliable rollouts using Amazon ECS         | deployments                                  |
 | **2024** | `SVS409` — Deep dive into Amazon ECS resilience and availability                    | **очень рекомендую**                         |
