@@ -2,6 +2,7 @@
 
 | Год      | Session                                                                    | Фокус                      | 
 | -------- | -------------------------------------------------------------------------- | -------------------------- |
+| **2019** | `MAD205` — Intro to Event-driven Architectures and Amazon EventBridge      | [Intro to EDA](https://www.youtube.com/watch?v=tvELVa9D9qU)       |
 | **2022** | `API307` — Designing event-driven integrations using Amazon EventBridge    | базовые EDA patterns       |
 | **2022** | `API311` — Building next-gen applications with event-driven architectures  | EDA                        |
 | **2022** | `API302` — Building global event-driven applications                       | distributed EDA            |
