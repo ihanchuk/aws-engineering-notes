@@ -1,16 +1,11 @@
 ### AWS Step Functions
 
-| Год      | Session                                                                              | Фокус                              | Ссылка                           |
-| -------- | ------------------------------------------------------------------------------------ | ---------------------------------- |---------------------------------- 
-| **2022** | `API201` — The Step Functions Workshop                                               | fundamentals                       |
-| **2022** | `API204` — Model your business process with Step Functions                           | state machines                     |
-| **2022** | `API309` — Advanced serverless workflow patterns and best practices                  | advanced workflows                 |
-| **2022** | `API314` — Art of the possible with AWS Step Functions                               | patterns                           |
-| **2023** | `API401` — Advanced workflow patterns and business processes with AWS Step Functions | **must watch**                     |
-| **2023** | `API310` — Scale interactive data analysis with Step Functions Distributed Map       | Distributed Map                    |
-| **2024** | `API201` — The AWS Step Functions workshop                                           | hands-on                           |
-| **2024** | `API203` — Building common orchestrated workflows with AWS Step Functions            | **callback + Saga + Map**          |
-| **2024** | `API207` — Optimize data processing with built-in AWS Step Functions features        | Map/intrinsics                     |
-| **2024** | `API402` — Building advanced workflows with AWS Step Functions                       | advanced                           |
-| **2024** | `API402` — Building state machines with AWS Step Functions Workflow Studio                       | advanced                           | [link](https://www.youtube.com/watch?v=o9tn7ZxPYhc&t=662s)
-| **2025** | новые Step Functions sessions                                                        | workflows / testing / integrations |
+| Год      | Session                                                                              | Фокус                              | 
+| -------- | ------------------------------------------------------------------------------------ | ---------------------------------- |
+| **2022** |  Intro                                                                               | [Intro](https://www.youtube.com/watch?v=qoVAEflgcZ4)                    |
+| **2022** | `API309` — Advanced serverless workflow patterns and best practices                  | [Advanced workflows](https://www.youtube.com/watch?v=o6-7BAUWaqg)       | 
+| **2023** | Back to basics: Saga Pattern by Using AWS Step Functions                             | [Saga Pattern](https://www.youtube.com/watch?v=ucR0dM5m2xU)             |
+| **2024** | `API402` — Building advanced workflows with AWS Step Functions                       | [Advanced flows](https://www.youtube.com/watch?v=gdGgBKJiM2E&t=581s)    | 
+| **2024** | `API402` — Building state machines with AWS Step Functions Workflow Studio           | [State machines](https://www.youtube.com/watch?v=o9tn7ZxPYhc&t=662s)    |
+| **2025** | Rapid-Fire AWS Step Functions Patterns                                               | [Patterns](https://www.youtube.com/watch?v=Sxsp2p0Nio4&t=141s)          |
+| **2025** | Simplifying orchestrations with JSONata and AWS Step Functions                       | [Orchestrations](https://www.youtube.com/watch?v=4juNJwolx4Q&t=2s)      |
