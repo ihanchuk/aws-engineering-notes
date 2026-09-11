@@ -4,6 +4,7 @@
 | -------- | ------------------------------------------------------------------------------------ | ---------------------------------- |
 | **2022** | `API201` — The Step Functions Workshop                                               | fundamentals                       |
 | **2022** | `SVS404-R` — A closer look at AWS Lambda                                             | [AWS Lambda](https://www.youtube.com/watch?v=0_jfH6qijVY)                       |
+| **2022** |  Optimizing AWS Lambda Performance                                                   | [Lambda Performance](https://www.youtube.com/watch?v=z8wGSykEauI)                     |
 | **2022** | `API204` — Model your business process with Step Functions                           | state machines                     |
 | **2022** | `API309` — Advanced serverless workflow patterns and best practices                  | advanced workflows                 |
 | **2022** | `API314` — Art of the possible with AWS Step Functions                               | patterns                           |
