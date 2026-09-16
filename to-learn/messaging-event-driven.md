@@ -3,6 +3,7 @@
 | Год      | Session                                                                            | Фокус                                                                            |
 | -------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | **2019** | `MAD205` — Intro to Event-driven Architectures and Amazon EventBridge              | [Intro to EDA](https://www.youtube.com/watch?v=tvELVa9D9qU)                      |
+| **2022** | `ANZ2021` — Design patterns for success in serverless microservices   🔥           | [Design patterns](https://www.youtube.com/watch?v=ReRB_xEtEjY)                   |
 | **2023** | `DEV7` — Designing event-driven integrations using Amazon EventBridge              | [General Princeps](https://www.youtube.com/watch?v=NJU1O1qs8NY)                  |
 | **2022** | `API307-R` — Integrations using Amazon EventBridge                                 | [Principles](https://www.youtube.com/watch?v=W3Rh70jG-LM&t=1297s)                |
 | **2022** | `API311` — Building next-gen applications with event-driven architectures          | [EDA Architecture](https://www.youtube.com/watch?v=SbL3a9YOW7s)                  |
@@ -17,4 +18,8 @@
 |          | Fan-Out Serverless Architectures Using SNS, SQS and Lambda                         | [Fan Out](https://www.youtube.com/watch?v=CEj0yyubNgQ)                           |
 |          | Amazon SQS and Amazon SNS messages                                                 | [SQS/SNS/Lambda](https://www.youtube.com/watch?v=GWa2N3xe73M)                    |
 | **2023** | Event-driven Architectures                                                         | [Architectures](https://www.youtube.com/watch?v=cOQClEYryvU)                     |
+| **2023** | AWS EventBridge Part 1 - Краткий обзор возможностей EventBridge  🔥                | [RUS Intro](https://www.youtube.com/watch?v=iEUbZDU523M&t=331s)                  |
+| **2023** | Asynchronous Message Patterns 🔥🔥                                                  | [Asynchronous Message Patterns](https://www.youtube.com/watch?v=-yJqBuwouZ4)    |
 |          | Deep Dive on Amazon EventBridge                                                    | [EventBridge ](https://www.youtube.com/watch?v=28B4L1fnnGM)                      |
+| **2025** | `SEG209` — Getting started building serverless SaaS architectures                  | [Intro to SaaS architecture](https://www.youtube.com/watch?v=5TBzdDV60wE)        |
+| **2026** | AWS Hands-On Lab: SNS Topic, SQS Queue, Lambda Consumer & DLQ Deep Dive 🔥🔥        | [Deep Dive](https://www.youtube.com/watch?v=7aNweSPvHKY)                        |
