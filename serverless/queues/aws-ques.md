@@ -9,3 +9,10 @@
 | **Amazon MSK (Managed Kafka)** | Pull (consumers poll brokers using Kafka protocol) | Порядок гарантируется **в пределах partition** (ordering per partition) | At-least-once по умолчанию; можно добиться Exactly-Once semantics с Kafka EOS (требует конфигурации/producers/transactions) | Можно организовать «один активный консюмёр в consumer group per partition» — контролируемое параллельное потребление | Kafka native protocol (TCP) | Подходит для стриминга с высокой пропускной способностью, хранением истории, сложной обработки; требует управления семантикой consumer groups. |
 | **Kinesis Data Streams** | Pull (consumers читают из shard) | Гарантированный порядок внутри **shard** | At-least-once; ordering per shard; можно replay (переиграть) | Не «один получатель» по умолчанию — несколько консьюмеров могут читать один shard, но обычно один consumer group обрабатывает | HTTPS API (AWS SDK), внутри — managed streaming | Отлично для потоковой телеметрии/логов/стриминга; порядок внутри shard; обеспечивает retention и replay. |
 | **EventBridge** | Push (EventBridge доставляет события в target — Lambda, SQS, HTTP и т.д.) | **Не гарантирует** порядок доставки | At-least-once (доставляет с retry/проверками) | Нет (fan-out на разные targets) | HTTPS API / AWS internal transport | Подходит как event-bus/ESB для событийного маршрута и фильтрации; не для строгого порядка. |
+
+
+### Термины
+
+- __pull__
+- __best effort__
+-  __effort__
