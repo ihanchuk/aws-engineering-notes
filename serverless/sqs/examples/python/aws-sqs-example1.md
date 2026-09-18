@@ -1,5 +1,7 @@
 # Python examples
 
+Пример отправки сообщеия в очередь
+
 ```python
 import boto3
 import json
