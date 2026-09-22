@@ -19,6 +19,7 @@
 ## Internet Connectivity
 
 › [NAT Gateway](./aws-nat-gateway.md)<br />
+› [NAT Instance](./aws-nat-instance.md)<br />
 › [NAT Gateway vs Internet Gateway](./nat-vs-internet-gatway.md)
 
 ## Network Security
