@@ -16,6 +16,9 @@ NAT instance — это обычный EC2-инстанс, настроенны�
 | Плата за обработку трафика (Data Processing) | **0.00 USD** (нет наценки за гигабайт) | **0.045 USD** за каждый 1 GB |
 | Плата за выход в интернет (AWS Egress) | ~0.09 USD за 1 GB (после 100 GB free) | ~0.09 USD за 1 GB (после 100 GB free) |
 
+> [!NOTE]
+> NAT Instance — это `EC2`, поэтому технически NAT Instance работает именно на EC2. Но через него могут ходить не только EC2.
+
 #### Отличия `NAT instance` vs `NAT Gateway
 
 |                                         | NAT Instance         | NAT Gateway               |
