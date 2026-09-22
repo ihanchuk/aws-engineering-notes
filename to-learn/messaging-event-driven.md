@@ -21,5 +21,9 @@
 | **2023** | AWS EventBridge Part 1 - Краткий обзор возможностей EventBridge  🔥                | [RUS Intro](https://www.youtube.com/watch?v=iEUbZDU523M&t=331s)                  |
 | **2023** | Asynchronous Message Patterns 🔥🔥                                                  | [Asynchronous Message Patterns](https://www.youtube.com/watch?v=-yJqBuwouZ4)    |
 |          | Deep Dive on Amazon EventBridge                                                    | [EventBridge ](https://www.youtube.com/watch?v=28B4L1fnnGM)                      |
+| **2024** | AVS vs SQS 🔥                                                                      | [Intro to SQS vs SNS](https://www.youtube.com/watch?v=yuYqc6bvrHw&list=PLiv5DsFFzt7RyM3C44YAZRobvJ4JpxcPP&index=9&t=707s)        |
 | **2025** | `SEG209` — Getting started building serverless SaaS architectures                  | [Intro to SaaS architecture](https://www.youtube.com/watch?v=5TBzdDV60wE)        |
 | **2026** | AWS Hands-On Lab: SNS Topic, SQS Queue, Lambda Consumer & DLQ Deep Dive 🔥🔥        | [Deep Dive](https://www.youtube.com/watch?v=7aNweSPvHKY)                        |
+
+
+
