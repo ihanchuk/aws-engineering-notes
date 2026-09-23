@@ -1,5 +1,7 @@
 # SQS + Lambda example
 
+AWS SQS в качестве триггера для AWS Lambda с использованием AWS CDK на TypeScript.Этот код создает стандартную очередь SQS, функцию Lambda и настраивает подписку (Event Source Mapping).
+
 ```js
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
