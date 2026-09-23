@@ -45,3 +45,29 @@ export class SqsDlqLambdaStack extends cdk.Stack {
   }
 }
 ```
+
+### Lambda handler
+
+```js
+exports.handler = async (event) => {
+    for (const record of event.Records) {
+        try {
+            console.log("Обработка сообщения: ", record.body);
+            
+            // Имитация валидации данных
+            const data = JSON.parse(record.body);
+            if (!data.id) {
+                throw new Error("Неверный формат данных: отсутствует ID");
+            }
+            
+            // Успешная бизнес-логика...
+            
+        } catch (error) {
+            console.error(`Ошибка при обработке сообщения ${record.messageId}:`, error);
+            // Пробрасываем ошибку наружу, чтобы AWS Lambda зафейлила этот батч
+            // и SQS вернул сообщение обратно в очередь для повторной попытки
+            throw error;
+        }
+    }
+};
+```
