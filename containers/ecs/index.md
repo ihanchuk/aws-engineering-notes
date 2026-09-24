@@ -1,10 +1,13 @@
 # AWS ECS
 
-## Net Modes
+## Общая информация
+› [Вступление](aws-ecs-intro.md)<br />
 
-› [Net modes](aws-ecs-networking-modes.md)<br />
-› [Net modes compared](aws-ecs-net-modes-comapred.md)<br />
+## Режимы сети (Net Modes)
 
-## Examples
+› [Режимы сети таски](aws-ecs-networking-modes.md)<br />
+› [Краткое сравнение](aws-ecs-net-modes-comapred.md)<br />
+
+## Примеры
 
 › [TBD](./ecs-example.md)
