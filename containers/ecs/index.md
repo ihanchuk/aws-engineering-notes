@@ -10,6 +10,7 @@
 
 ## Деплой (Deployment)
 › [Стратегии деплоймента](aws-ecs-deployment-modes.md)<br />
+› [Хуки деплоймента](aws-ecs-blue-green-deployment-hooks.md)<br />
 
 ## Примеры
 
