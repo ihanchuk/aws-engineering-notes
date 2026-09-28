@@ -11,6 +11,7 @@ AWS SAM (Serverless Application Model) — это надстройка над AW
 - __Cвязи__: API → Lambda
 - __Output__ с URL созданного API
 
+### Пример:
 
 ```yml
 AWSTemplateFormatVersion: '2010-09-09'
@@ -41,3 +42,48 @@ Outputs:
     Description: "HTTP API endpoint"
     Value: !Sub "https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com"
 ```
+
+### Разбор кода
+
+```yaml
+Globals:
+  Function:
+    Runtime: nodejs18.x
+    Timeout: 10
+    Handler: app.handler
+```
+
+#### Глобальные настройки Лямбды
+
+Эти настройки автоматически задаются для всех Лямбд. Итак, все наши Лямбды будут иметь:
+
+- __Runtime__: — Node.js 18.
+- __Timeout__: — Lambda может выполняться максимум 10 секунд.
+- __Handler__: app.handler — AWS ищет файл app.js и вызывает экспортированную функцию handler.
+
+### Локальные настройки
+
+```yaml
+HelloFunction:
+  Type: AWS::Serverless::Function
+  Properties:
+    CodeUri: src/
+    Policies: AWSLambdaBasicExecutionRole
+```
+
+- `CodeUri: src/` - код берётся из src/;
+- `AWSLambdaBasicExecutionRole` - Предопределенная самим АВС роль с правами для записи логов в CloudWatch.
+
+#### связь с API
+
+```yaml
+Events:
+  Api:
+    Type: HttpApi
+    Properties:
+      Path: /hello
+      Method: GET
+```
+
+SAM автоматически создаёт HTTP API и связывает его с Lambda. В этом примере нет отдельного описания самого HTTP API
+
