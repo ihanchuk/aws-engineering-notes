@@ -74,7 +74,7 @@ HelloFunction:
 - `CodeUri: src/` - код берётся из src/;
 - `AWSLambdaBasicExecutionRole` - Предопределенная самим АВС роль с правами для записи логов в CloudWatch.
 
-#### связь с API
+#### Связь с API
 
 ```yaml
 Events:
@@ -85,5 +85,22 @@ Events:
       Method: GET
 ```
 
-SAM автоматически создаёт HTTP API и связывает его с Lambda. В этом примере нет отдельного описания самого HTTP API
+SAM автоматически создаёт HTTP API и связывает его с Lambda. В этом примере нет отдельного описания самого HTTP API.
 
+#### Outputs
+
+```yaml
+Outputs:
+  ApiEndpoint:
+    Description: "HTTP API endpoint"
+    Value: !Sub "https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com"
+```
+
+`!Sub` подставляет значения переменных в строку:
+
+- `${ServerlessHttpApi}` — созданный SAM HTTP API.
+- `${AWS::Region} `— текущий AWS Region.
+
+В результате получится URL примерно такого вида:
+
+`https://abc123.execute-api.eu-central-1.amazonaws.com`
