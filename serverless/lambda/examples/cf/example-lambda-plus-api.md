@@ -1,4 +1,16 @@
-# Пример на CloudFormation
+# Пример на SAM + CloudFormation 
+
+AWS SAM (Serverless Application Model) — это надстройка над AWS CloudFormation, которая упрощает описание serverless-инфраструктуры. 
+В этом пример мы создадим Лямбду. 
+
+Давайте расссмотрим характеристики нашей будуще Лямбды.
+
+- __Lambda-функция__: HelloFunction
+- __API__: HTTP API через API Gateway
+- __Mаршрут__: GET /hello
+- __Cвязи__: API → Lambda
+- __Output__ с URL созданного API
+
 
 ```yml
 AWSTemplateFormatVersion: '2010-09-09'
