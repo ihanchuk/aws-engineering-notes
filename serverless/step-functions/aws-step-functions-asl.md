@@ -96,3 +96,54 @@ Orders
 ```
 
 Например, массив заказов может быть обработан одним и тем же Task для каждого элемента.
+
+### Pass ###
+
+Pass не выполняет внешнюю операцию. Он может использоваться для передачи, создания или преобразования данных внутри workflow.
+
+```text
+{
+  "PrepareData": {
+    "Type": "Pass",
+    "Result": {
+      "status": "ready"
+    },
+    "Next": "Process"
+  }
+}
+```
+
+### Wait ###
+
+Wait приостанавливает выполнение workflow на определённый промежуток времени или до указанного момента.
+
+```text
+{
+  "WaitForConfirmation": {
+    "Type": "Wait",
+    "Seconds": 30,
+    "Next": "CheckStatus"
+  }
+}
+```
+### Succeed и Fail ###
+
+Succeed явно завершает workflow успешно:
+```text
+{
+  "Success": {
+    "Type": "Succeed"
+  }
+}
+```
+
+Fail завершает workflow с ошибкой:
+```text
+{
+  "Failed": {
+    "Type": "Fail",
+    "Error": "ProcessingFailed",
+    "Cause": "Order processing failed"
+  }
+}
+```
