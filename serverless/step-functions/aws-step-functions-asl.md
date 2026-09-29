@@ -29,7 +29,7 @@
 | `Succeed` | Успешное завершение workflow |
 | `Fail` | Завершение workflow с ошибкой |
 
-### Task
+### Task ###
 
 `Task` используется для выполнения конкретной операции. Например, можно вызвать Lambda:
 
@@ -41,3 +41,58 @@
     "End": true
   }
 }
+```
+
+### Choice ###
+
+Choice используется для условного ветвления workflow.
+
+```json
+{
+  "CheckStatus": {
+    "Type": "Choice",
+    "Choices": [
+      {
+        "Variable": "$.status",
+        "StringEquals": "COMPLETED",
+        "Next": "Success"
+      }
+    ],
+    "Default": "Failed"
+  }
+}
+```
+
+В данном случае Choice проверяет значение $.status и выбирает следующий шаг.
+
+### Parallel ###
+
+Parallel позволяет выполнять несколько веток одновременно.
+
+```text
+
+              ┌──→ GetDiscount ──────┐
+              │                      │
+Start ────────┼──→ GetShipmentInfo ──┼──→ Final
+              │                      │
+              └──→ GetStatus ────────┘
+```
+
+Workflow продолжит выполнение после завершения всех параллельных веток, если одна из них не завершит workflow ошибкой.
+
+### Map ###
+
+Map используется, когда одну и ту же операцию необходимо выполнить для каждого элемента коллекции.
+```text
+Orders
+  │
+  ▼
+ Map
+ ├── Order #1 → ProcessOrder
+ ├── Order #2 → ProcessOrder
+ ├── Order #3 → ProcessOrder
+ └── Order #4 → ProcessOrder
+
+```
+
+Например, массив заказов может быть обработан одним и тем же Task для каждого элемента.
