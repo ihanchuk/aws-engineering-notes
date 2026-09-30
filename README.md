@@ -69,3 +69,12 @@
 ## To learn
 
 › [To Learn](./to-learn/index.md)
+
+## Patterns
+
+› [Serverless & Event-Driven](./patterns/index.md)
+› [Data & Caching](./patterns/index.md)
+› [Security & Networking](./patterns/index.md)
+› [Resilience & Compute](./patterns/index.md)
+› [Operations & Observability](./patterns/index.md)
+› [Containers & AI/ML](./patterns/index.md)
