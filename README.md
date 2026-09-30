@@ -72,9 +72,9 @@
 
 ## Patterns
 
-› [Serverless & Event-Driven](./patterns/index.md)
-› [Data & Caching](./patterns/index.md)
-› [Security & Networking](./patterns/index.md)
-› [Resilience & Compute](./patterns/index.md)
-› [Operations & Observability](./patterns/index.md)
+› [Serverless & Event-Driven](./patterns/index.md)<br />
+› [Data & Caching](./patterns/index.md)<br />
+› [Security & Networking](./patterns/index.md)<br />
+› [Resilience & Compute](./patterns/index.md)<br />
+› [Operations & Observability](./patterns/index.md)<br />
 › [Containers & AI/ML](./patterns/index.md)
