@@ -36,6 +36,6 @@
 
 › [Lambda + API Gateway](./example-lambda-plus-api.md)
 
-## Troubleshooting & Lessons Learned
+## Troubleshooting & Metrics
 
-› [Lambda Container Mistakes](./container-mistakes.md)
+› [Troubleshooting and Lambda Metrics](./metrics/index.md)
