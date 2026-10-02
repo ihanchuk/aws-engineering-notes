@@ -38,4 +38,5 @@
 
 ## Troubleshooting & Metrics
 
-› [Troubleshooting and Lambda Metrics](./metrics/index.md)
+› [Lambda Metrics](./metrics/index.md)<br>
+› [diagnostics](./troubles/index.md)<br>
