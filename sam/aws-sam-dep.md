@@ -44,3 +44,36 @@ DeploymentPreference:
 - `Canary10Percent5Minutes` — сначала 10% трафика направляется на новую версию, а через пять минут — весь трафик, если развёртывание проходит успешно.
 
 **Важно:** эти конфигурации управляют переключением трафика между версиями Lambda. Они не создают stage API Gateway, например `Prod` или `Stage`. Для canary- и линейного деплоя используется интеграция с AWS CodeDeploy.
+
+
+```yaml
+
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: API Gateway with canary Lambda deployment
+
+Resources:
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: hello_world/
+      Handler: app.lambda_handler
+      Runtime: python3.11
+      AutoPublishAlias: live
+      DeploymentPreference:
+        Type: Canary10Percent5Minutes
+      Events:
+        HelloWorld:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: get
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint
+    Value: !Sub
+      - "https://${ApiId}.execute-api.${AWS::Region}.${AWS::URLSuffix}/Prod/hello/"
+      - ApiId: !Ref ServerlessRestApi
+
+```
