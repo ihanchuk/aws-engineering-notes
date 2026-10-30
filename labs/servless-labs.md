@@ -1,0 +1,20 @@
+# Список плабораторных работ AWS Skill Builder в модели Serverless
+
+| Название лабораторной работы | Домен | Время выполнения | Ссылка на лабораторную работу |
+| :--- | :--- | :--- | :--- |
+| **Troubleshooting API Gateway with Lambda Proxy Integration** | skillbuilder.aws | 1 ч 00 мин | [Перейти к лабораторной](https://skillbuilder.aws/learn/RNFQU4XGGZ/troubleshooting-api-gateway-with-lambda-proxy-integration/WTSRTDN7AU "Troubleshooting API Gateway Lambda Proxy Integration") |
+| **Debugging Event-Driven Applications Using Amazon EventBridge** | skillbuilder.aws | 2 ч 00 мин | [Перейти к лабораторной](https://explore.skillbuilder.aws/learn/course/external/view/elearning/15008/building-event-driven-applications-with-amazon-eventbridge "Debugging Event-Driven Applications EventBridge") |
+| **Developing Serverless Applications with AWS Step Functions** | skillbuilder.aws | 1 ч 30 мин | [Перейти к лабораторной](https://skillbuilder.aws/learn/NF4MQD5WQ5/lab--building-serverless-workflows-with-aws-step-functions/QHYHGBEZT5 "Developing Serverless Applications Step Functions") |
+| **Build an Event-Driven Serverless Architecture with Amazon EventBridge** | skillbuilder.aws | 1 ч 30 мин | [Перейти к лабораторной](https://skillbuilder.aws/learn/QDQERF1H2S/lab--build-an-eventdriven-serverless-architecture-with-amazon-eventbridge/JHNMGYE5Y4 "Build Event-Driven Serverless Architecture EventBridge") |
+| **Event-Driven Architecture with Amazon API Gateway, Amazon EventBridge, and AWS Lambda** | skillbuilder.aws | 2 ч 00 мин | [Перейти к лабораторной](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14747/event-driven-architecture-with-amazon-eventbridge "Event-Driven Architecture API Gateway EventBridge Lambda") |
+| **Automating AWS Service Notifications with Amazon EventBridge** | skillbuilder.aws | 1 ч 00 мин | [Перейти к лабораторной](https://explore.skillbuilder.aws/learn/course/external/view/elearning/119/amazon-eventbridge-overview-and-integration-with-saas-applications "Automating AWS Service Notifications EventBridge") |
+| **Building a Serverless API with Amazon API Gateway** | skillbuilder.aws | 1 ч 00 мин | [Перейти к лабораторной](https://skillbuilder.aws/learn/RNFQU4XGGZ/troubleshooting-api-gateway-with-lambda-proxy-integration/WTSRTDN7AU "Building Serverless API Amazon API Gateway") |
+| **Building a Serverless API** | skillbuilder.aws | 0 ч 30 мин | [Перейти к лабораторной](https://skillbuilder.aws/learn/EHKK2F9XQV/digital-classroom--developing-serverless-solutions-on-aws/ZF1VB8BT4A "Building Serverless API Course") |
+| **Deploying an Application to AWS Lambda** | skillbuilder.aws | 1 ч 00 мин | [Перейти к лабораторной](https://docs.aws.amazon.com/lambda/latest/dg/concepts-event-driven-architectures.html "Deploying Application AWS Lambda") |
+| **Deploying Your First AWS Lambda Container** | skillbuilder.aws | 2 ч 00 мин | [Перейти к лабораторной](https://skillbuilder.aws/learn/AAKKR6V8F5/developer-tooling-for-aws-step-functions/6G57Z1DRWE "Deploying AWS Lambda Container") |
+| **Build a Serverless Architecture with Amazon SNS, Amazon SQS, and AWS Lambda** | skillbuilder.aws | 1 ч 30 мин | [Перейти к лабораторной](https://explore.skillbuilder.aws/learn/course/external/view/elearning/15017/building-event-driven-applications-with-amazon-eventbridge-includes-labs "Build Serverless Architecture SNS SQS Lambda") |
+| **Configure and Manage Message Queues with Amazon SQS** | skillbuilder.aws | 1 ч 00 мин | [Перейти к лабораторной](https://explore.skillbuilder.aws/learn/course/external/view/elearning/15017/building-event-driven-applications-with-amazon-eventbridge-includes-labs "Configure Manage Message Queues Amazon SQS") |
+| **Create and Manage a Basic Kafka Cluster Using Amazon MSK** | skillbuilder.aws | 1 ч 30 мин | [Перейти к лабораторной](https://explore.skillbuilder.aws/learn/course/external/view/elearning/15017/building-event-driven-applications-with-amazon-eventbridge-includes-labs "Kafka Cluster Amazon MSK") |
+
+### Итоговый расчет времени
+Суммарное расчетное время на прохождение всех 13 лабораторных работ составляет: **17 часов 30 минут**.
