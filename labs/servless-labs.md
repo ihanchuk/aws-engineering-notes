@@ -2,7 +2,7 @@
 
 | Название лабораторной работы | Домен | Время выполнения | Скилл | Готово | Ссылка на лабораторную работу |
 | :--- | :--- | :--- | :--- | :---: | :--- |
-| **Troubleshooting API Gateway with Lambda Proxy Integration** | skillbuilder.aws | 1 ч 00 мин | | Нет | [Перейти к лабораторной](https://skillbuilder.aws/learn/RNFQU4XGGZ/troubleshooting-api-gateway-with-lambda-proxy-integration/WTSRTDN7AU "Troubleshooting API Gateway Lambda Proxy Integration") |
+| **Troubleshooting API Gateway with Lambda Proxy Integration** | Lambda versions | 1 ч 00 мин | Versions and API Gateway | Да | [Перейти к лабораторной](https://skillbuilder.aws/learn/RNFQU4XGGZ/troubleshooting-api-gateway-with-lambda-proxy-integration/WTSRTDN7AU "Troubleshooting API Gateway Lambda Proxy Integration") |
 | **Filtering and blocking web incursions with AWS WAF** | WAF | 1 ч 00 мин | | Нет | [Перейти к лабораторной](https://skillbuilder.aws/learn/75P4RAFSYK/filtering-and-blocking-web-incursions-with-aws-waf/824QYCRV98 "Filtering and blocking web incursions with AWS WAF") |
 | **Identity and Access Management - Cognito Getting Started** | Auth | 1 ч 15 мин | | Нет | [Перейти к лабораторной](https://skillbuilder.aws/learn/49UPDB8UTA/aws-identity-and-access-management--cognito-getting-started/D1BRS1F1Z9 "Identity and Access Management - Cognito Getting Started") |
 | **Implement Custom Authentication with Amazon Cognito** | Auth | 1 ч 15 мин | Cognito Hooks | Да | [Перейти к лабораторной](https://skillbuilder.aws/learn/HZBVGGHMMX/lab--implement-custom-authentication-with-amazon-cognito/G68MH8HQJK "Implement Custom Authentication with Amazon Cognito") |
